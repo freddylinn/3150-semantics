@@ -1,3 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,700&display=swap');
+
+body {
+    background-color: #eff5d6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    color: black;
+    line-height: 1.3rem;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
 .sr-only {
     border: 0;
     clip: rect(0,0,0,0);
